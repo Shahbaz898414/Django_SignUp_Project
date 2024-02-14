@@ -1,1 +1,1 @@
-# Sign Up Project on Django
+# Sign In / Sign Up Project using Django
