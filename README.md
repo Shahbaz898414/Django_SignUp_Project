@@ -46,13 +46,26 @@ python manage.py startapp app_name
 
 You might need to configure your Django project's settings in the settings.py file. This includes database settings, static files configuration, installed apps, etc.
 
-## Create database tables (if needed): 
+## Create database tables (if needed):
+
 If you've defined models in your Django app, you'll need to create database tables based on these models. Run the following command:
+
 ```
 python manage.py migrate
 ```
 
+This command will synchronize your database schema with your current models.
 
+## Create a superuser (if needed):
+If you plan to use Django's admin interface, create a superuser with the following command:
+
+```
+python manage.py createsuperuser
+```
+
+Follow the prompts to create a superuser account.
+
+That's it! Your Django project should now be up and running. You can start building your web application by defining models, views, templates, and URLs according to your requirements. Remember to always consult the Django documentation for detailed explanations and best practices.
 
 ## Video Link of project
 
