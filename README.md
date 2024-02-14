@@ -18,3 +18,10 @@ https://youtu.be/qZNjK8F3JtA?si=rHTI9p5-5bTEzFfg
 ### User data display page
 
 ![alt text](image-2.png)
+
+## Install Django: If you haven't already, install Django using pip:
+
+```
+pip install django
+
+```
