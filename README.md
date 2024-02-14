@@ -9,3 +9,8 @@ Login  Page
 
 ![alt text](image.png)
 
+
+Sign Up page
+
+![alt text](image-1.png)
+
