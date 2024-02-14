@@ -34,7 +34,7 @@ python manage.py runserver
 
 This command will start the development server on your local machine, and you can access your Django project by visiting http://127.0.0.1:8000/ or http://localhost:8000/ in your web browser.
 
-## Create a Django app (if needed):
+## Create a Django app :
 
 Inside your project, you may want to create Django apps to organize your code. You can create a new app using the manage.py script:
 
@@ -42,11 +42,11 @@ Inside your project, you may want to create Django apps to organize your code. Y
 python manage.py startapp app_name
 ```
 
-## Configure settings (if needed):
+## Configure settings :
 
 You might need to configure your Django project's settings in the settings.py file. This includes database settings, static files configuration, installed apps, etc.
 
-## Create database tables (if needed):
+## Create database tables:
 
 If you've defined models in your Django app, you'll need to create database tables based on these models. Run the following command:
 
@@ -56,16 +56,13 @@ python manage.py migrate
 
 This command will synchronize your database schema with your current models.
 
-## Create a superuser (if needed):
+## Create a superuser:
 If you plan to use Django's admin interface, create a superuser with the following command:
 
 ```
 python manage.py createsuperuser
 ```
 
-Follow the prompts to create a superuser account.
-
-That's it! Your Django project should now be up and running. You can start building your web application by defining models, views, templates, and URLs according to your requirements. Remember to always consult the Django documentation for detailed explanations and best practices.
 
 ## Video Link of project
 
